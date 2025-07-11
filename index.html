@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Salvemos el Envión Puerto - Firma la Petición | Mar del Plata</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gradient-to-br from-white via-green-50 to-blue-50">
+
+  <!-- Navigation -->
+  <nav class="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-md border-b border-gray-200/50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center h-16">
+        <div class="flex items-center">
+          <h1 class="text-xl font-bold text-gray-800">Envión Puerto</h1>
+        </div>
+        <button id="sign-petition-nav" class="bg-green-500 hover:bg-green-600 text-white px-6 py-2 rounded-full font-semibold transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl">
+          🖊️ Firmar Petición
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="relative pt-16 pb-20 px-4 sm:px-6 lg:px-8 overflow-hidden">
+    <div class="absolute inset-0 bg-gradient-to-br from-green-500/10 via-blue-500/10 to-yellow-500/10"></div>
+    <div class="relative max-w-7xl mx-auto">
+      <div class="text-center">
+        <h1 class="text-4xl sm:text-5xl lg:text-7xl font-bold text-gray-900 mb-6 leading-tight">
+          <span class="text-green-600">Salvemos el</span><br />
+          <span class="text-gray-800">Envión Puerto Mar del Plata</span>
+        </h1>
+        <p class="text-xl sm:text-2xl text-gray-600 mb-8 max-w-4xl mx-auto leading-relaxed">
+          Centro comunitario para jóvenes en situación de vulnerabilidad en Mar del Plata cerrado desde junio 2025.
+          <span class="font-semibold text-green-600"> Tu firma puede ayudar</span> a trasladarlo a un lugar seguro.
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <button id="sign-petition-hero" class="bg-green-500 hover:bg-green-600 text-white text-lg px-8 py-4 rounded-2xl font-bold transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl">
+            🖊️ Firmar la Petición
+          </button>
+          <button id="learn-more" class="bg-white text-gray-700 text-lg px-8 py-4 rounded-2xl font-semibold border-2 border-gray-200 hover:border-green-500 hover:text-green-600 transition-all duration-300 shadow-lg hover:shadow-xl">
+            Conocer más
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ¿Qué está pasando? Section -->
+  <section id="que-pasa" class="py-20 px-4 sm:px-6 lg:px-8 bg-white/50 backdrop-blur-sm">
+    <div class="max-w-4xl mx-auto">
+      <header class="text-center mb-12">
+        <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 mb-6">
+          ¿Qué está pasando con el Envión Puerto?
+        </h2>
+        <div class="w-24 h-1 bg-green-500 mx-auto mb-8"></div>
+      </header>
+      <div class="grid gap-8 md:grid-cols-2">
+        <article class="bg-white/70 backdrop-blur-sm rounded-3xl p-8 shadow-xl border border-gray-200/50">
+          <div class="text-red-500 text-4xl mb-4" aria-label="Advertencia">⚠️</div>
+          <h3 class="text-xl font-bold text-gray-900 mb-4">Centro Comunitario Cerrado desde Junio 2025</h3>
+          <p class="text-gray-700 leading-relaxed">
+            El centro comunitario Envión Puerto de Mar del Plata está cerrado desde junio de 2025. La decisión fue tomada tras varios hechos de violencia e inseguridad que pusieron en riesgo a jóvenes, chicos, chicas y educadores.
+          </p>
+        </article>
+        <article class="bg-white/70 backdrop-blur-sm rounded-3xl p-8 shadow-xl border border-gray-200/50">
+          <div class="text-green-500 text-4xl mb-4" aria-label="Comunidad">🏠</div>
+          <h3 class="text-xl font-bold text-gray-900 mb-4">150+ Jóvenes Vulnerables Afectados</h3>
+          <p class="text-gray-700 leading-relaxed">
+            Este centro comunitario brinda talleres educativos, contención psicológica, comidas y actividades esenciales para más de 150 jóvenes en situación de vulnerabilidad social del barrio durante más de 10 años.
+          </p>
+        </article>
+      </div>
+      <div class="mt-12 bg-yellow-50 border-l-4 border-yellow-400 rounded-3xl p-8 text-center">
+        <div class="text-yellow-500 text-4xl mb-4" aria-label="Propuesta">🤝</div>
+        <h3 class="text-2xl font-bold text-gray-900 mb-4">Nuestra Propuesta: Reubicación Segura</h3>
+        <p class="text-lg text-gray-700 leading-relaxed">
+          Pedimos que el programa social <strong>no se cierre definitivamente</strong>, sino que se traslade a un lugar más seguro y apropiado donde pueda continuar con su importante labor comunitaria en Mar del Plata.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50">
+    <div class="max-w-6xl mx-auto">
+      <header class="text-center mb-12">
+        <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 mb-6">
+          Testimonios de Familias de Mar del Plata
+        </h2>
+        <div class="w-24 h-1 bg-green-500 mx-auto mb-8"></div>
+      </header>
+      <div class="grid gap-8 md:grid-cols-3">
+        <article class="bg-white/80 backdrop-blur-sm rounded-3xl p-8 shadow-xl border border-gray-200/50 transform transition-all duration-500 hover:scale-105">
+          <div class="text-center mb-6">
+            <h3 class="text-xl font-bold text-gray-900">Stella</h3>
+          </div>
+          <blockquote class="text-gray-700 italic text-center leading-relaxed">
+            "El Envión me ayudó con mis hijos. Es un lugar de contención para chicos que están desamparados."
+          </blockquote>
+        </article>
+        <article class="bg-white/80 backdrop-blur-sm rounded-3xl p-8 shadow-xl border border-gray-200/50 transform transition-all duration-500 hover:scale-105">
+          <div class="text-center mb-6">
+            <h3 class="text-xl font-bold text-gray-900">Arripe</h3>
+          </div>
+          <blockquote class="text-gray-700 italic text-center leading-relaxed">
+            "Siempre hay una palabra de apoyo. Necesitamos que siga existiendo."
+          </blockquote>
+        </article>
+        <article class="bg-white/80 backdrop-blur-sm rounded-3xl p-8 shadow-xl border border-gray-200/50 transform transition-all duration-500 hover:scale-105">
+          <div class="text-center mb-6">
+            <h3 class="text-xl font-bold text-gray-900">Camilo</h3>
+          </div>
+          <blockquote class="text-gray-700 italic text-center leading-relaxed">
+            "Es un gran lugar de apoyo para mis hijos."
+          </blockquote>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section class="py-20 px-4 sm:px-6 lg:px-8 bg-white/50 backdrop-blur-sm">
+    <div class="max-w-6xl mx-auto">
+      <header class="text-center mb-12">
+        <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 mb-6">
+          El Impacto del Envión Puerto en la Comunidad
+        </h2>
+        <div class="w-24 h-1 bg-green-500 mx-auto mb-8"></div>
+        <p class="text-lg text-gray-600 max-w-3xl mx-auto">
+          Más que un centro comunitario, el Envión Puerto es un refugio donde los jóvenes de Mar del Plata encuentran oportunidades, educación, apoyo y un futuro mejor.
+        </p>
+      </header>
+      <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
+        <figure class="group relative overflow-hidden rounded-3xl shadow-xl transform transition-all duration-500 hover:scale-105">
+          <img src="img/puerta.jpg" alt="Mural Envión Puerto" class="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500">
+          <div class="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+          <figcaption class="absolute bottom-4 left-4 right-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+            <p class="font-semibold">Mural Envión Puerto</p>
+          </figcaption>
+        </figure>
+        <figure class="group relative overflow-hidden rounded-3xl shadow-xl transform transition-all duration-500 hover:scale-105">
+          <img src="img/envion.jpg" alt="Muestra anual talleres" class="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500">
+          <div class="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+          <figcaption class="absolute bottom-4 left-4 right-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+            <p class="font-semibold">Muestra anual talleres</p>
+          </figcaption>
+        </figure>
+        <figure class="group relative overflow-hidden rounded-3xl shadow-xl transform transition-all duration-500 hover:scale-105">
+          <img src="img/futbol.jpg" alt="Chicos jugando" class="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500">
+          <div class="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+          <figcaption class="absolute bottom-4 left-4 right-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+            <p class="font-semibold">Encuentro Envión</p>
+          </figcaption>
+        </figure>
+        <figure class="group relative overflow-hidden rounded-3xl shadow-xl transform transition-all duration-500 hover:scale-105">
+          <img src="img/OIP.jpg" alt="Encuentro Envión" class="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500">
+          <div class="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+          <figcaption class="absolute bottom-4 left-4 right-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+            <p class="font-semibold">Encuentro Envión</p>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-3xl sm:text-4xl font-bold mb-6 text-gray-900">
+        Firma la Petición por el Envión Puerto
+      </h2>
+      <p class="text-xl mb-8 leading-relaxed text-gray-700">
+        Firmá online en Change.org para pedir que el Envión Puerto de Mar del Plata continúe funcionando en un lugar seguro.
+        También podés firmar presencialmente en la <strong>Biblioteca de Ayolas y Padre Dutto</strong>
+        (Lunes a Viernes de 8:30 a 15 hs) en Mar del Plata.
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <button id="sign-petition-cta" class="bg-green-500 hover:bg-green-600 text-white text-lg px-8 py-4 rounded-2xl font-bold transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl">
+          🖊️ Firmar Petición Online
+        </button>
+        <button id="view-location" class="bg-blue-500 hover:bg-blue-600 text-white text-lg px-8 py-4 rounded-2xl font-semibold transition-all duration-300 shadow-lg hover:shadow-xl">
+          📍 Ver Ubicación Presencial
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-white py-12 px-4 sm:px-6 lg:px-8">
+    <div class="max-w-6xl mx-auto">
+      <div class="grid gap-8 md:grid-cols-3">
+        <div>
+          <h3 class="text-xl font-bold mb-4">Envión Puerto Mar del Plata</h3>
+          <p class="text-gray-400 leading-relaxed">
+            Más de 10 años brindando apoyo educativo, talleres y contención a jóvenes en situación de vulnerabilidad social en Mar del Plata, Argentina.
+          </p>
+        </div>
+        <div>
+          <h3 class="text-xl font-bold mb-4">Información de Contacto</h3>
+          <p class="text-gray-400 mb-2">📧 Email: info@envionpuerto.org</p>
+          <p class="text-gray-400 mb-2">📱 WhatsApp: +54 9 223 XXXX</p>
+          <p class="text-gray-400 mb-2">📍 Mar del Plata, Buenos Aires, Argentina</p>
+          <p class="text-gray-400 text-sm">Biblioteca: Ayolas y Padre Dutto</p>
+        </div>
+        <div>
+          <h3 class="text-xl font-bold mb-4">Síguenos en Redes Sociales</h3>
+          <div class="flex space-x-4">
+            <a href="https://www.facebook.com/envionpuerto" target="_blank" rel="noopener noreferrer" class="bg-blue-600 p-3 rounded-full hover:bg-blue-700 transition-colors duration-300">
+              <span class="text-lg">📘</span>
+            </a>
+            <a href="https://www.instagram.com/envionpuerto" target="_blank" rel="noopener noreferrer" class="bg-pink-600 p-3 rounded-full hover:bg-pink-700 transition-colors duration-300">
+              <span class="text-lg">📷</span>
+            </a>
+            <a href="https://twitter.com/envionpuerto" target="_blank" rel="noopener noreferrer" class="bg-blue-400 p-3 rounded-full hover:bg-blue-500 transition-colors duration-300">
+              <span class="text-lg">🐦</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="mt-8 pt-8 border-t border-gray-800 text-center text-gray-400">
+        <p>&copy; 2025 Salvemos el Envión Puerto. Petición comunitaria por la educación y contención de jóvenes en Mar del Plata.</p>
+        <p class="mt-2 text-sm">Palabras clave: envión puerto, mar del plata, centro comunitario, jóvenes vulnerables, petición, change.org</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
